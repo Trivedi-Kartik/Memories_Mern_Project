@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({limit: "30mb", extended: true}))
 app.use(cors());
 
 app.use('/posts',routes);
-const CONNECTION_URL = "mongodb+srv://Nestjs-Demo:Nestjs-Demo@cluster0.ejb9yb1.mongodb.net/Memories"
+const CONNECTION_URL = ""
 
 const port = process.env.PORT || 5000
 
